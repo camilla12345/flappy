@@ -181,7 +181,7 @@ function FlappyBird() {
 
     this.start = () => {
 
-        areaDoJogo.appendChild(new Restart("START").elemento)
+     //   areaDoJogo.appendChild(new Restart("START").elemento)
       // if ( document.getElementById("button").onclick ){
 
      
@@ -191,7 +191,7 @@ function FlappyBird() {
 
             if (colidiu(passaro, barreiras)) {
                 clearInterval(temporizador)
-                areaDoJogo.appendChild(new Restart("RESTART").elemento)
+             //   areaDoJogo.appendChild(new Restart("RESTART").elemento)
                 
             }
 
